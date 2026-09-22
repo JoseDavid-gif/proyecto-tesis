@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1094199032839",
+    "project_id": "spothole-app-74731",
+    "storage_bucket": "spothole-app-74731.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094199032839:android:97bcf0f24e9ded309e3ea2",
+        "android_client_info": {
+          "package_name": "com.example.spothole_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5Oo6Z-rBP4FmcNs5TKHj45pPpxhQtCFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

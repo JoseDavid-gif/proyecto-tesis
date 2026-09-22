@@ -1,0 +1,61 @@
+name: spothole_app
+description: App de detección y gestión de baches
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase 
+  supabase_flutter: ^2.0.0
+
+  # Cámara
+  camera: ^0.11.0
+
+  # IA - TensorFlow Lite
+  tflite_flutter: ^0.12.0
+
+  # Visión geométrica - marcador métrico
+  opencv_dart: 2.2.2
+
+  # Imagen
+  image: ^4.1.7
+
+  # GPS
+  geolocator: ^13.0.0
+
+  # Mapas
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.0
+
+  # Cloudinary
+  cloudinary_public: ^0.23.1
+
+  # Utilidades
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  cupertino_icons: ^1.0.6
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model/
+    - assets/labels/
+
+hooks:
+  user_defines:
+    dartcv4:
+      include_modules:
+        - imgproc
+        - calib3d
+        - aruco
